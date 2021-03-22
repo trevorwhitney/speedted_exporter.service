@@ -1,0 +1,3 @@
+[submodule "speedtest_exporter"]
+	path = speedtest_exporter
+	url = git@github.com:nlamirault/speedtest_exporter.git
