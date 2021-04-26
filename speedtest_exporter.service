@@ -8,9 +8,8 @@ After=network-online.target
 WantedBy=multi-user.target
 
 [Service]
-Type=notify
+Type=simple
 KillMode=process
-Delegate=yes
 Restart=always
 RestartSec=5s
 ExecStart=/usr/local/bin/speedtest_exporter
